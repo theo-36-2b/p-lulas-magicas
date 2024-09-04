@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>As pílulas mágicas</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Um dia estava tranquilo andando no metrô, quando um homem todo coberto veio em minha direção e abriu as suas mãos e nela tinha uma pílula em cada. Em seguida ele mandou eu escolher uma delas.</p>
+            <button class="btn-proximo" data-proximo="1">pílula verde</button>
+            <button class="btn-proximo" data-proximo="2">pílula roxa</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você terá superforça, pórem sua velocidade será muito lenta. Um senhor vê você usando seus poderes e te chama pra fazer um teste na academia dele</p>
+            <button class="btn-proximo" data-proximo="3">você aceita e vai para o lugar</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Você terá o poder de voar, porém de dia seus poderes somem. Você foi passear na madrugada e viu um assalto</p>
+            <button class="btn-proximo" data-proximo="5">Impedir o assalto</button>
+            <button class="btn-proximo" data-proximo="6">Fingir que não viu</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>chegando no local você descobre que não era uma academia e sim uma liga de superheróis</p>
+            <button class="btn-proximo" data-proximo="7">entra para a liga</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Você decide que a aventura é grande demais e volta para casa, mas sempre se pergunta o que teria
+                encontrado.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Você derrubo o ladrão e a pessoa que você salvou, na verdade era o fundador de uma organização de superheróis egora ele faz um convite para você fazer parte.</p>
+            <button class="btn-proximo" data-proximo="7">entrar para a liga</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>voando você avistou uma pessoa se jogando de um prédio.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar e ajudar essa pessoa</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+                <p>Na liga você conheceoutros heróis e fa amizade. E a 1ª missão de vocês é salvar reféns de um sequestro chegando lá uma parte da equipe vai por baixo e a outra por cima.</p>
+            <button class="btn-proximo" data-proximo="9">ir por cima e salvar os reféns</button>
+            <button class="btn-proximo" data-proximo="10">ir por baixo e derrotar os bandidos</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Após ter ajudado ele, você foi parar na televisão por ter salvo a vida de uma pessoa. E agora você foi chamado para uma liga de superheróis</p>
+            <button class="btn-proximo" data-proximo="7">entrar para liga</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Derrotou os bandidos que estavam com os reféns e ficou esperando o resto da equipe aparecer.</p>
+            <button class="btn-proximo" data-proximo="11">após sua eqipe aparecer voltaram ao centro de comandos</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Você luta com eles e derrota todos os capangas que tinham por baixo e antes de você subir o chefão aparece.</p>
+            <button class="btn-proximo" data-proximo="12">enfrentar o chefão</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11-cidade-perdida.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>No centro de comandos vocês decidiram que lá seria o melhor lugar para vocês ficarem e salvarem a cidade, com isso viveram nele pelo resto de suas vidas</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Derrotou o chefão e subiu para se encontrar com o resto da equipe.</p>
+            <button class="btn-proximo" data-proximo="11">após sua eqipe aparecer voltaram ao centro de comandos</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
